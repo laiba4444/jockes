@@ -1,0 +1,68 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Solitreo', cursive;
+
+font-size: 700;
+
+margin: 0;
+padding:0 ;
+box-sizing: border-box;
+
+}
+
+
+
+body{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: aqua;
+}
+
+
+main{
+   
+    flex:1 0 auto;
+    margin-top: 50px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    height: 50%;
+    border-radius: 5px;
+    background-color: rgb(250, 179, 203); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px;
+    
+}
+  
+
+
+.card .joke{
+    padding: 10px 0;
+
+}
+  
+  
+  .card:hover {
+    box-shadow: 4px 8px 16px 4px rgba(0,0,0,0.5);
+  }
+  
+  
+  #jokeBtn:hover{
+ background-color: rgba(247, 247, 99, 0.582);
+  }
+  #jokeBtn{
+    padding: 2px 2px;
+  }
